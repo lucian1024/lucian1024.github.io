@@ -86,8 +86,7 @@ avatar:
 toc: true
 
 comments:
-  active: # The global switch for posts comments, e.g., 'disqus'.  Keep it empty means disable
-  # The active options are as follows:
+  active: giscus
   disqus:
     shortname: # fill with the Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
   # utterances settings › https://utteranc.es/
@@ -96,12 +95,12 @@ comments:
     issue_term: # < url | pathname | title | ...>
   # Giscus options › https://giscus.app
   giscus:
-    repo: # <gh-username>/<repo>
-    repo_id:
-    category:
-    category_id:
-    mapping: # optional, default to 'pathname'
-    input_position: # optional, default to 'bottom'
+    repo: lucian1024/lucian1024.github.io
+    repo_id: R_kgDOJpzrkQ
+    category: Announcements
+    category_id: DIC_kwDOJpzrkc4CXIOd
+    mapping: pathname
+    input_position: bottom
     lang: # optional, default to the value of `site.lang`
     reactions_enabled: # optional, default to the value of `1`
 
