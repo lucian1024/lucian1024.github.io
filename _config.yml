@@ -20,7 +20,7 @@ timezone: Asia/Shanghai
 
 title: Lucian's Blog # the main title
 
-tagline: 静听星空物语，淡看物是人非 # it will display as the sub-title
+tagline: Happy coding, happy life. # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
   The personal blog mainly shares the content of Android and Flutter.
