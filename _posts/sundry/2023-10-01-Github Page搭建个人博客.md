@@ -41,6 +41,14 @@ Jekyll 是一个静态站点生成器，它使用 Markdown 和 HTML 文件，并
 
 修改仓库根目录下的_config.yml文件进行站点配置，如标题，副标题，头像，图标(favicons)，评论等等，其中评论依赖第三方插件，Chirpy主题支持disqus，utterances和giscus三个插件，笔者选择的是[giscus](https://giscus.app)，参考giscus官方文档进行配置即可。
 
+### 2.7 草稿
+
+_drafts目录下的文字为草稿，站点是不会展示的。如果需要本地预览草稿，运作站点命令增加--drafts参数即可
+
+```
+bundle exec jekyll serve --drafts
+```
+
 ## 参考资料
 
 [1] [GitHub Pages 快速入门](https://docs.github.com/zh/pages/quickstart)
