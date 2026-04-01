@@ -5,7 +5,7 @@ GEM
     addressable (2.8.9)
       public_suffix (>= 2.0.2, < 8.0)
     afm (1.0.0)
-    async (2.37.0)
+    async (2.38.1)
       console (~> 1.29)
       fiber-annotation
       io-event (~> 1.11)
@@ -28,9 +28,9 @@ GEM
       ffi (>= 1.15.0)
       logger
     eventmachine (1.2.7)
-    ffi (1.17.3-arm64-darwin)
-    ffi (1.17.3-x86_64-darwin)
-    ffi (1.17.3-x86_64-linux-gnu)
+    ffi (1.17.4-arm64-darwin)
+    ffi (1.17.4-x86_64-darwin)
+    ffi (1.17.4-x86_64-linux-gnu)
     fiber-annotation (0.2.0)
     fiber-local (1.1.0)
       fiber-storage
@@ -46,7 +46,7 @@ GEM
       bigdecimal
       rake (~> 13.3)
     hashery (2.1.2)
-    html-proofer (5.2.0)
+    html-proofer (5.2.1)
       addressable (~> 2.3)
       async (~> 2.1)
       benchmark (~> 0.5)
@@ -59,7 +59,7 @@ GEM
     http_parser.rb (0.8.0)
     i18n (1.14.8)
       concurrent-ruby (~> 1.0)
-    io-event (1.11.2)
+    io-event (1.14.5)
     jekyll (4.4.1)
       addressable (~> 2.4)
       base64 (~> 0.2)
@@ -99,7 +99,7 @@ GEM
       jekyll-sitemap (~> 1.4)
     jekyll-watch (2.2.1)
       listen (~> 3.0)
-    json (2.19.2)
+    json (2.19.3)
     kramdown (2.5.2)
       rexml (>= 3.4.4)
     kramdown-parser-gfm (1.1.0)
